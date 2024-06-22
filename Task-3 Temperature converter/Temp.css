@@ -1,0 +1,61 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url("/Task3 =Temperature Converter /math-temperature-atmosphere.jpg"); /* Add your background image here */
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+header {
+	background-color: rgba(0, 0, 0, 0.5); /* Add a transparent background to the header */
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+.hero {
+	color: #fff;
+	text-align: center;
+}
+
+.hero h1 {
+	margin-bottom: 20px;
+}
+
+#btn {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#btn:hover {
+	background-color: #555;
+}
